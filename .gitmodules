@@ -1,0 +1,3 @@
+[submodule "TinyMaix"]
+	path = TinyMaix
+	url = https://github.com/xusiwei/HPM6750_TinyMaix.git
