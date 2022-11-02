@@ -14,13 +14,24 @@ TinyMaix本身也是用CMake构建的，而HPM6750的SDK也是用CMake构建的�
 
 ## 下载
 
+```sh
+git clone --recursive https://github.com/xusiwei/HPM6750_TinyMaix_Benchmark.git
+```
+
+注意：这个项目本身需要下载到hpm_sdk的samples目录下。
 
 
 
+## 编译、烧录、运行
 
-## 编译
+```sh
+# 1.生成SEGGER Embedded Studio项目
+generate_project -b hpm6750evkmini -t flash_xip -f
+
+# 2.使用SEGGER Embedded Studio编译项目
+
+# 3.使用SEGGER Embedded Studio调试项目
+```
 
 
-
-## 运行
 
